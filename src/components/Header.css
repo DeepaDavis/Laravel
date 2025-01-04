@@ -1,0 +1,63 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position:sticky;
+    top:0;
+    z-index:100;
+    background-color: white;
+}
+.header_logo{
+    height: 30px;
+    width: 90px;
+    object-fit : contain;
+    margin-left: 20px;
+}
+
+.header_icons{
+    margin-right :20px;
+    color: rgb(23,23,23) !important;
+}
+
+
+
+
+.header_middle{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    border:1px solid lightgray;
+    flex:1;
+    margin-right: 10px;
+    
+}
+.header_input{
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+.searchInput{
+    flex: 1;
+    border: none;
+    height:  25px !important;
+    padding-left: 10px;
+    font-size: 16px;
+}
+/*Lets change our search button a bit */
+.header_searchBtn{
+    width :50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgrey;
+    color: gray;
+}
+
+
+.header_left{
+    display: flex;
+    align-items : center;
+}
+.header_right{
+    display: flex;
+    align-items: center;
+}
